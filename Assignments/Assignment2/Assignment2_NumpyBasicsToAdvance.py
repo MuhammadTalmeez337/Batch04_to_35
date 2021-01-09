@@ -1,4 +1,4 @@
-# # Read Instructions carefully before attempting this assignment
+# Read Instructions carefully before attempting this assignment
 
 # 1) don't rename any function name
 # 2) don't rename any variable name
@@ -229,7 +229,7 @@ def function14():
     # Hint use split method
     
     
-    arr = numpy.arange(10, 34, 1) #write reshape code
+    arr = np.arange(10, 34, 1) #write reshape code
     ans = #write your code here 
   
     return ans
@@ -326,7 +326,7 @@ def function19():
     W =   # Write your code here 
     b =   # Write your code here
     output =    # Write your code here
-
+    return output
     #expected output
     """
     array([[  6,  17,  38,  69, 110],
@@ -338,10 +338,10 @@ def function19():
 
 
 #Task20
-def fucntion20():
+def function20():
     #apply fuction "abc" on each value of Array "X"
     x = np.arange(1,11)
-    def xyz(x):
+    def abc(x):
         return x*2+3-2
 
     return #Write your Code here
